@@ -16,32 +16,36 @@
 	</style>
 	
 </head>
-<div id="wrap">
+
 <body>
 
 	<h1 class="purple">Soccer Player Registration Form</h1>
 	<h2 id='yellow'>Summer 2019</h2>
 		<form>
 
+            <article>
 			<p>
 			<label><b>Name</b>
 			<input type="text" name="customer_name" required>
 			</label> 
 			</p>
 
+            <article class="child"> 
 			<p>
 			<label><b>Phone</b>
 			<input type="tel" name="phone_number" required>
 			</label>
 			</p>
+            </article>
 
 			<p>
 			<label><b>Email</b>
 			<input type="email" name="email_address" required>
 			</label>
 			</p>
+			</article>
 
-			<fieldset>
+			<fieldset id="sibling">
 			<legend>What is your preferred position?</legend>
 			<p><label> <input type="radio" name="position" required value="F"> Forward </label></p>
 			<p><label> <input type="radio" name="position" required value="M"> Midfield </label></p>
@@ -49,12 +53,22 @@
 			<p><label> <input type="radio" name="position" required value="GK"> Goal Keeper</label></p>
 			</fieldset>
 
+            <fieldset id="adjacentsibling">
+			<legend>What is your second position?</legend>
+			<p><label> <input type="radio" name="position" required value="F"> Forward </label></p>
+			<p><label> <input type="radio" name="position" required value="M"> Midfield </label></p>
+			<p><label> <input type="radio" name="position" required value="D"> Defense </label></p>
+			<p><label> <input type="radio" name="position" required value="GK"> Goal Keeper</label></p>
+			</fieldset>  
+
+            <section>
 			<p>
 			<label>Preferred Start Date
 			<input type="date" name="pickup_time">
 			</label>(optional)
 			</p>
-				
+			
+            <section class="child">			
 			<p>
 			<label>Preferred Field Location
 			<select id="pickup_place" name="pickup_place">
@@ -65,11 +79,13 @@
 			</select>
 			</label>(optional) 
 			</p>
+            </section>
 
 			<p>
 			<label>Jersey Number
 			<input type="text" name="jersey_number" list="numbers">
 			</label>(optional)
+            </section>
 
 			<datalist id="numbers">
 				<option value="GK">

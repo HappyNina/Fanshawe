@@ -10,11 +10,30 @@ h2  {
 	Color: yellow;
 }
 
-#wrap {
-	width: 100%;
-	margin: 0 auto;
-	overflow: auto;
+article p {
+	Color: blue;
 }
+
+article.child > p {
+	Color: pink;
+}
+
+section label {
+	Color: purple;
+}
+
+section.child > p > label {
+	Color: pink;
+}
+
+fieldset#sibling > legend ~ p {
+	font-style: italic;
+}
+
+fieldset#adjacentsibling > legend + p {
+	font-style: italic;
+}
+
 
 @media screen and (max-width: 640px) {
 *,
