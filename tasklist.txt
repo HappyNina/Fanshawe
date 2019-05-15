@@ -1,13 +1,52 @@
-Place to keep Assignment Tasks
+Place to keep Assignment Tasks!
 
-Assignment Task:  Added two descendant selectors to your last assignment.  This will include adding the selectors to your CSS file and may include changes to your HTML file if two unique descendants are not currently available. 
+Week 1 - Assignments:
 
-Assignment Task:  Added two child selectors to your last assignment.  
+    Creating a GitHub Account
+    Add a New Repository and name it HelloWorld
 
-Assignment Task:  Added one sibling selector to your last assignment
+    Task:   Alter lesson1.html to adhere to the best practices for placing style blocks
 
-Assignment Task:  Added an adjacent sibling selector to your last assignment.
+Week 2 - Assignments:
 
-Assignment Task: add tasklist.txt to your repository directory on the same level as the .css and .html file
+    Delete Repository created from Week 1
+    Add New Repository named "Fanshawe"
+      Add description "CSS3 Course Work"
+      Make repository public
+	  Initialize the repository with README file
+	  Edit the README file on GitHub and Commit changes
+	  
+	Updating HTML & CSS files with the following 4 types of selectors and submitting Week 2 Assignment using GitHub on the Web
+      Element Selector
+      Class Selector   
+      ID Selector
+      Grouping Selector	  
 
-Assignment Task:  In the tasklist.txt file, cut and paste all the assignment task steps from this presentation and then commit and push the file to the remote repository
+Week 3 - Assignments:
+
+  Assignment 1: 
+
+    Assignment Task:  Add two descendant selectors to your last assignment.  This will include adding the selectors to your CSS file and may include changes to your HTML file if two unique descendants are not currently available. 
+
+    Assignment Task:  Added two child selectors to your last assignment.  
+
+    Assignment Task:  Added one sibling selector to your last assignment
+
+    Assignment Task:  Added an adjacent sibling selector to your last assignment.
+
+    Assignment Task: add tasklist.txt to your repository directory on the same level as the .css and .html file
+
+    Assignment Task:  In the tasklist.txt file, cut and paste all the assignment task steps from this presentation and then commit and push the file to the remote repository
+
+  Assignment 2:
+
+    Assignment Task: Create a new html file called:  boxmodel.html (the css can live inside this file). Create an example which shows the difference between two block elements and two inline elements
+	
+	Assignment Task: In the html file you created earlier, implement the code found on the next slide.  Using HTML comments, explain what is happening in this snippet of code. 
+	
+	Assignment Task: Change the CSS in the previous code to utilize one of the short cuts. Save the file as boxmodel_shortcut.html
+
+    Assignment Task: Alter the example using negative margins to produce the image on the next slide (name the file negative.html – css can live within the file)
+	
+	Assignment Task: Please submit boxmodel.html, boxmodel_shortcut.html and negative.html using the technique from Part 1.
+
